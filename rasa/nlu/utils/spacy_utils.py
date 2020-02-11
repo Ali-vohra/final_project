@@ -99,7 +99,10 @@ class SpacyNLP(Component):
 
     def doc_for_text(self, text: Text) -> "Doc":
 
-        return self.nlp(self.preprocess_text(text))
+        if self.component_config.get("case_sensitive"):
+            return self.nlp(text)
+        else:
+            return self.nlp(text.upper())
 
     def preprocess_text(self, text: Optional[Text]) -> Text:
 

@@ -28,187 +28,93 @@
 - hey bot!
 - hello friend
 
-## intent:request_restaurant
-- im looking for a restaurant
-- can i get [swedish](cuisine) food in any area
-- a restaurant that serves [caribbean](cuisine) food
-- id like a restaurant
-- im looking for a restaurant that serves [mediterranean](cuisine) food
-- can i find a restaurant that serves [chinese](cuisine)
-- i am looking for any place that serves [indonesian](cuisine) food for [three](num_people:3)
-- i need to find a restaurant
-- uh im looking for a restaurant that serves [kosher](cuisine) food
-- uh can i find a restaurant and it should serve [brazilian](cuisine) food
-- im looking for a restaurant serving [italian](cuisine) food
-- restaurant please
-- i'd like to book a table for [two](num_people:2) with [spanish](cuisine) cuisine
-- i need a table for [4](num_people)
-- book me a table for [three](num_people:3) at the [italian](cuisine) restaurant
-- can you please book a table for [5](num_people)?
-- I would like to book a table for [2](num_people)
-- looking for a table at the [mexican](cuisine) restaurant for [five](num_people:5)
-- find me a table for [7](num_people) people
-- Can I get a table for [four](num_people:4) at the place which server [greek](cuisine) food?
+## intent:request_prescription
+- open a new prescription
+- can you open a new prescription for [Josh](PERSON)
+- can you open a new prescription for [Donald](PERSON)
+- can you open a new prescription for [albert](PERSON)
+- can you open a new prescription for [samantha](PERSON)
+- can you open a new prescription for [bill](PERSON)
+- can you open a new prescription for [samia](PERSON)
+- can you open a new prescription for [rosa](PERSON)
+- can you open a new prescription for [david](PERSON)
+- can you open a new prescription for me?
+- can you open a new prescription for me
+- im looking to open a new prescription
+- im looking forward to you to open a new prescription for me
+- can i get a new prescription
+- can i get a new prescription for [Mr.Josh](PERSON)
+- can i get a new prescription for [Mr.Bill](PERSON)
+- can i get a new prescription for [Mrs.Samantha](PERSON)
+- can i get a new prescription for [Mr.donald](PERSON)
+- can i get a new prescription for [Mr.josh](PERSON)
+- im looking to open a new prescription for [Josh](PERSON)
+- im looking to open a new prescription for [Mr.Josh](PERSON)
+- im looking to open a new prescription for [Bill](PERSON)
+- im looking to open a new prescription for [Mr.Bill](PERSON)
+- i would like to open a new prescription
+- i would like to open a new prescription for [Mr.Josh](PERSON)
+- i would like to open a new prescription for [Mr.Bill](PERSON)
+- i would like to open a new prescription for [Mrs.Samantha](PERSON)
+- i would like to open a new prescription for [Mr.donald](PERSON)
+- i would like to open a new prescription for [Mr.josh](PERSON)
 
-## intent:affirm
-- yeah a cheap restaurant serving international food
-- correct
-- ye
-- uh yes
-- let's do it
-- yeah
-- uh yes
-- um yes
-- yes knocking
-- that's correct
-- yes yes
-- right
-- yea
-- yes
-- yes right
-- yes and i dont care
-- right on
-- i love that
-
-## intent:deny
-- no
-- no new selection
-- no thanks
-- no thank you
-- uh no
-- breath no
-- do you have something else
-- no this does not work for me
 
 ## intent:inform
-- [afghan](cuisine) food
-- how bout [asian oriental](cuisine)
-- what about [indian](cuisine) food
-- uh how about [turkish](cuisine) type of food
-- um [english](cuisine)
-- im looking for [tuscan](cuisine) food
-- id like [moroccan](cuisine) food
-- [seafood](cuisine)
-- [french](cuisine) food
-- serves [british](cuisine) food
-- id like [canapes](cuisine)
-- serving [jamaican](cuisine) food
-- um what about [italian](cuisine) food
-- im looking for [corsica](cuisine) food
-- im looking for [world](cuisine) food
--  serves [french](cuisine) food
-- how about [indian](cuisine) food
-- can i get [chinese](cuisine) food
-- [irish](cuisine) food
-- [english](cuisine) food
-- [spanish](cuisine) food
-- how bout one that serves [portuguese](cuisine) food and is cheap
-- [german](cuisine)
-- [korean](cuisine) food
-- im looking for [romanian](cuisine) food
--  serves [canapes](cuisine) food
-- [gastropub](cuisine)
-- i want [french](cuisine) food
-- how about [modern european](cuisine) type of food
-- it should serve [scandinavian](cuisine) food
-- how [european](cuisine)
-- how about [european](cuisine) food
-- serves [traditional](cuisine) food
-- [indonesian](cuisine) food
-- [modern european](cuisine)
-- serves [brazilian](cuisine)
-- i would like [modern european](cuisine) food
-- looking for [lebanese](cuisine) food
-- [portuguese](cuisine)
-- [european](cuisine)
-- i want [polish](cuisine) food
-- id like [thai](cuisine)
-- i want to find [moroccan](cuisine) food
-- [afghan](cuisine)
-- [scottish](cuisine) food
-- how about [vietnamese](cuisine)
-- hi im looking for [mexican](cuisine) food
-- how about [indian](cuisine) type of food
-- [polynesian](cuisine) food
-- [mexican](cuisine)
-- instead could it be for [four](num_people:4) people
-- any [japanese](cuisine) food
-- what about [thai](cuisine) food
-- how about [asian oriental](cuisine) food
-- im looking for [japanese](cuisine) food
-- im looking for [belgian](cuisine) food
-- im looking for [turkish](cuisine) food
-- serving [corsica](cuisine) food
-- serving [gastro pub](cuisine:gastropub)
-- is there [british](cuisine) food
-- [world](cuisine) food
-- im looking for something serves [japanese](cuisine) food
-- id like a [greek](cuisine)
-- im looking for [malaysian](cuisine) food
-- i want to find [world](cuisine) food
-- serves [pan asian](cuisine:asian) food
-- looking for [afghan](cuisine) food
-- that serves [portuguese](cuisine) food
-- [asian oriental](cuisine:asian) food
-- [russian](cuisine) food
-- [corsica](cuisine)
-- [asian oriental](cuisine:asian)
-- serving [basque](cuisine) food
-- how about [italian](cuisine)
-- looking for [spanish](cuisine) food in the center of town
-- it should serve [gastropub](cuisine) food
-- [welsh](cuisine) food
-- i want [vegetarian](cuisine) food
-- im looking for [swedish](cuisine) food
-- um how about [chinese](cuisine) food
-- [world](cuisine) food
-- can i have a [seafood](cuisine) please
-- how about [italian](cuisine) food
-- how about [korean](cuisine)
-- [corsica](cuisine) food
-- [scandinavian](cuisine)
-- [vegetarian](cuisine) food
-- what about [italian](cuisine)
-- how about [portuguese](cuisine) food
-- serving [french](cuisine) food
-- [tuscan](cuisine) food
-- how about uh [gastropub](cuisine)
-- im looking for [creative](cuisine) food
-- im looking for [malaysian](cuisine) food
-- im looking for [unusual](cuisine) food
-- [danish](cuisine) food
-- how about [spanish](cuisine) food
-- im looking for [vietnamese](cuisine) food
-- [spanish](cuisine)
-- a restaurant serving [romanian](cuisine) food
-- im looking for [lebanese](cuisine) food
-- [italian](cuisine) food
-- a restaurant with [afghan](cuisine) food
-- im looking for [traditional](cuisine) food
-- uh i want [cantonese](cuisine) food
-- im looking for [thai](cuisine)
-- i want to seat [outside](seating)
-- i want to seat [inside](seating)
-- i want to seat [outdoor](seating)
-- i want to seat [indoor](seating)
-- let's go [inside](seating)
-- [inside](seating)
-- [outdoor](seating)
-- prefer sitting [indoors](seating)
-- I would like to seat [inside](seating) please
-- I prefer sitting [outside](seating)
-- my feedback is [good](feedback)
-- my feedback is [great](feedback)
-- it was [terrible](feedback)
-- i consider it [success](feedback)
-- you are [awful](feedback)
-- for [ten](num_people:10) people
-- [2](num_people) people
-- for [three](num_people:3) people
-- just [one](num_people:1) person
-- book for [seven](num_people:7) people
-- 2[num_people] please
-- [nine](num_people:9) people
+- for [Josh](PERSON)
+- for [josh](PERSON)
+- for [Bosh](PERSON)
+- for [bosh](PERSON)
+- for [Bill](PERSON)
+- for [bill](PERSON)
+- for [samantha](PERSON)
+- for [Samantha](PERSON)
+
+## intent:enter_age
+- OK the patient's age is [10](age)
+- the patient's age is [11](age)
+- patient's age is [49](age)
+- note down the patient's age as [23](age) years old
+- patient's age is [49](age) years old
+- OK the patient's age is [10](age) years old
+- the patient's age is [11](age) years old
+- She is [25](age) years old
+- She is [25](age)
+- She is [26](age)
+- She is [27](age)
+- She is [28](age)
+- She is [29](age)
+- She is [21](age)
+- She is [23](age) years old
+- He is [25](age) years old
+- He is [25](age)
+- He is [26](age)
+- He is [27](age)
+- He is [28](age)
+- He is [29](age)
+- He is [21](age)
+- He is [23](age) years old
+- [21](age) years
+- [22](age) years
+- [23](age) years
+- [24](age) years
+- [25](age) years
+- [26](age) years
+- [27](age) years
+- [28](age) years
+- [29](age) years
+- [30](age) years
+- [21](age) years old
+- [22](age) years old
+- [23](age) years old
+- [24](age) years old
+- [25](age) years old
+- [26](age) years old
+- [27](age) years old
+- [28](age) years old
+- [29](age) years old
+- [30](age) years old
+
 
 ## intent:thankyou
 - um thank you good bye
@@ -239,68 +145,3 @@
 - thank you bye
 - um okay thank you good bye
 
-## intent:chitchat
-- can you share your boss with me?
-- i want to get to know your owner
-- i want to know the company which designed you
-- i want to know the company which generated you
-- i want to know the company which invented you
-- i want to know who invented you
-- May I ask who invented you?
-- please tell me the company who created you
-- please tell me who created you
-- tell me more about your creators
-- tell me more about your founders
-- Ahoy matey how are you?
-- are you alright
-- are you having a good day
-- Are you ok?
-- are you okay
-- Do you feel good?
-- how are things going
-- how are things with you?
-- How are things?
-- how are you
-- how are you doing
-- how are you doing this morning
-- how are you feeling
-- how are you today
-- How are you?
-- How is the weather today?
-- What's the weather like?
-- How is the weather?
-- What is the weather at your place?
-- Do you have good weather?
-- Is it raining?
-- What's it like out there?
-- Is it hot or cold?
-- Beautiful day, isn't it?
-- What's the weather forecast?
-- Is it quite breezy outside?
-
-## intent:stop
-- ok then you cant help me
-- that was shit, you're not helping
-- you can't help me
-- you can't help me with what i need
-- i guess you can't help me then
-- ok i guess you can't help me
-- that's not what i want
-- ok, but that doesnt help me
-- this is leading to nothing
-- this conversation is not really helpful
-- you cannot help me with what I want
-- I think you cant help me
-- hm i don't think you can do what i want
-- stop
-- stop go back
-- do you get anything?
-- and you call yourself bot company? pff
-- and that's it?
-- nothing else?
-
-## intent:bot_challenge
-- are you a bot?
-- are you a human?
-- am I talking to a bot?
-- am I talking to a human?
